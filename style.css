@@ -144,3 +144,41 @@ nav {
     transform: translate(-15%, 30%);
   }
 }
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #efeae3;
+  padding: 8vw 0;
+}
+#moving-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: auto;
+}
+#moving-text::-webkit-scrollbar {
+  display: none;
+}
+#part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  animation: move 8s linear infinite;
+}
+#moving-text h1 {
+  font-size: 8vw;
+}
+#circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #fb360e;
+}
+@keyframes move {
+  from {
+    transform: translateX(0s);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
