@@ -211,8 +211,8 @@ nav {
   font-size: 1vw;
 }
 #page2-shape {
-  height: 35vw;
-  width: 35vw;
+  height: 30vw;
+  width: 30vw;
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to top right, #fb360e, #fe320a);
@@ -235,7 +235,21 @@ nav {
     transform: translate(-10%, 10%) skew(-10deg);
   }
 }
-
+#page2-footer {
+  display: flex;
+  align-items: center;
+  padding: 4vw 2vw;
+  gap: 0.8vw;
+}
+#page2-footer #mini-circle {
+  height: 1vw;
+  width: 1vw;
+  background-color: #fb360e;
+  border-radius: 50%;
+}
+#page2-footer p {
+  font-size: 1vw;
+}
 #page3 {
   height: 100vh;
   width: 100%;
