@@ -242,13 +242,13 @@ nav {
   gap: 0.8vw;
 }
 #page2-footer #mini-circle {
-  height: 1vw;
-  width: 1vw;
+  height: 0.8vw;
+  width: 0.8vw;
   background-color: #fb360e;
   border-radius: 50%;
 }
 #page2-footer p {
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 #page3 {
   height: 100vh;
