@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="image-container"></div>
     <div id="main">
       <div id="page1">
         <nav>
@@ -99,7 +100,11 @@
       </div>
       <div id="page3">
         <div id="elem-container">
-          <div class="elem">
+          <div
+            class="elem"
+            id="elem1"
+            data-image="https://plus.unsplash.com/premium_photo-1680546330986-7efea975e7ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+          >
             <div class="overlay"></div>
             <h2>MAKERS STUDIO HOI</h2>
             <div class="right">
@@ -107,7 +112,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719658415828-82c795a40bef?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>NYFW Popup</h2>
             <div class="right">
@@ -115,7 +123,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719582868977-9633f6e91a91?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>Kelece Super BowlParty</h2>
             <div class="right">
@@ -123,7 +134,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719339837887-cfa3987bc322?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>Converse SoHo</h2>
             <div class="right">
@@ -131,7 +145,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719727033384-fe3982381d8c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>Capezio NYC Flagship</h2>
             <div class="right">
@@ -139,7 +156,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719727033346-00f93d18d7e8?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>Play New Kidvision</h2>
             <div class="right">
@@ -147,7 +167,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719530910223-80eee3e889cb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwzNnx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>50th Anniversary</h2>
             <div class="right">
@@ -155,7 +178,10 @@
               <p>Experiential</p>
             </div>
           </div>
-          <div class="elem">
+          <div
+            class="elem"
+            data-image="https://images.unsplash.com/photo-1719554873571-0fd6bf322bb1?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D"
+          >
             <div class="overlay"></div>
             <h2>Carmelo Anthony 7pm In Brooklyn Set</h2>
             <div class="right">
@@ -166,8 +192,8 @@
         </div>
       </div>
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
       crossorigin="anonymous"
@@ -178,7 +204,7 @@
       integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
-    <script src="script.js"></script> -->
+    ></script> -->
+    <script src="script.js"></script>
   </body>
 </html>
