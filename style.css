@@ -254,6 +254,7 @@ nav {
   min-height: 100vh;
   width: 100%;
   background-color: #efeae3;
+  padding: 4vw 0;
 }
 .elem {
   height: 100px;
@@ -268,6 +269,7 @@ nav {
 }
 .elem h2 {
   font-size: 3.5vw;
+  z-index: 10;
 }
 .right {
   display: flex;
@@ -277,11 +279,13 @@ nav {
 .right h5 {
   text-align: right;
   text-transform: uppercase;
+  z-index: 10;
 }
 .right p {
   color: #676563;
   font-size: 1vw;
   text-align: right;
+  z-index: 10;
 }
 .overlay {
   height: 100%;
@@ -290,7 +294,8 @@ nav {
   position: absolute;
   left: 0;
   top: -100%;
-  transition: all ease 0.3s;
+  transition: all ease 0.2s;
+  z-index: 0;
 }
 .elem:hover .overlay {
   top: 0;
