@@ -10,7 +10,9 @@
   font-family: neu;
 }
 #main {
-  background-color: #000;
+  /* background-color: #000; */
+  position: relative;
+  z-index: 10;
 }
 #page1 {
   min-height: 100vh;
@@ -324,4 +326,10 @@ nav {
 #page5 {
   height: 100vh;
   width: 100%;
+}
+#footer{
+  position: fixed;
+  z-index: 9;
+  height: 60vh;
+  bottom: 0;
 }
