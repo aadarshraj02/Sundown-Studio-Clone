@@ -9,6 +9,9 @@
   box-sizing: border-box;
   font-family: neu;
 }
+#main {
+  background-color: #000;
+}
 #page1 {
   min-height: 100vh;
   width: 100%;
@@ -312,4 +315,13 @@ nav {
 }
 .elem:hover .overlay {
   top: 0;
+}
+#page4 {
+  height: 80vh;
+  width: 100%;
+  background-color: #efeae3;
+}
+#page5 {
+  height: 100vh;
+  width: 100%;
 }
