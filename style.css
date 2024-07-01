@@ -342,3 +342,7 @@ nav {
 #footer h1 {
   font-size: 20vw;
 }
+#end {
+  height: 20vh;
+  width: 100%;
+}
