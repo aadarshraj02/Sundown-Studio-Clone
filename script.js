@@ -20,3 +20,12 @@ elemAll.forEach((e) => {
     imageContainer.style.backgroundImage = `url(${img})`;
   });
 });
+
+function swiperAnimation() {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 100,
+  });
+}
+swiperAnimation();
