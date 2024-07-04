@@ -419,4 +419,41 @@ nav h3 {
     border-radius: 30px;
     padding-left: 10vw;
   }
+  #center {
+    height: 62vh;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+    padding: 7vw 5vw;
+    padding-bottom: 10vw;
+    flex-direction: column-reverse;
+    position: relative;
+    z-index: 9;
+}
+
+#left h3 {
+    width: 80%;
+    font-size: 5.5vw;
+    line-height: 6vw;
+}
+
+#center h1 {
+    font-size: 17vw;
+    text-align: right;
+    line-height: 15vw;
+}
+
+#page1 video {
+    position: relative;
+    border-radius: 15px;
+    margin-top: 4vw;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    width: 92%;
+    margin-left: 4%;
+}
 }
