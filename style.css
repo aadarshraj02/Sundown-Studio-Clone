@@ -472,4 +472,80 @@ nav h3 {
   #moving-text::-webkit-scrollbar {
     display: none;
   }
+  #part {
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  #moving-text h1 {
+    font-size: 15vw;
+    /* background-color: lightblue; */
+    display: inline-block;
+  }
+
+  #circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fe320a;
+    margin: 2vw 2vw;
+  }
+
+  #page2-bottom {
+    height: 90vh;
+    width: 100%;
+    /* background-color: aliceblue; */
+    padding: 10vw 4vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    z-index: 9;
+  }
+
+  #page2-bottom h1 {
+    font-size: 8.2vw;
+    width: 100%;
+    line-height: 9vw;
+  }
+
+  #bottom2 {
+    width: 70%;
+    /* background-color: aqua; */
+  }
+
+  #bottom2 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #bottom2 p {
+    font-weight: 200;
+    margin-top: 2vw;
+    font-size: 3vw;
+  }
+
+  #page2 #page2-shape {
+    height: 62vw;
+    width: 62vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+    /* background: linear-gradient(to top right,red,blue); */
+
+    top: 58%;
+    left: 25%;
+    filter: blur(20px);
+    animation-name: shape;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
 }
